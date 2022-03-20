@@ -1,4 +1,4 @@
-From tomcat
+From tomcat:9
 Maintainer Abhinav
 ADD addressbook.war /usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
